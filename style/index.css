@@ -86,36 +86,61 @@ h2{
     background: orange;
     display: flex;
     align-self: flex-end;
-   
-    
 }
+
+.projects{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+  
+}   
+
+
+
+
 .proj1{
     display: flex;
     background-image: url("https://picsum.photos/200/200/?grayscale");
+    width: 100px;
+    height: 100px;
+    
 
 }
 .proj2{
     display: flex;
     background-image: url("https://picsum.photos/200/200/?grayscale");
+    width: 100px;
+    height: 100px;
 
 }
 .proj3{
     display: flex;
     background-image: url("https://picsum.photos/200/200/?grayscale");
+    width: 100px;
+    height: 100px;
 
 }
 .proj4{
     display: flex;
     background-image: url("https://picsum.photos/200/200/?grayscale");
+    width: 100px;
+    height: 100px;
 
 }
 .proj5{
     display: flex;
     background-image: url("https://picsum.photos/200/200/?grayscale");
+    width: 100px;
+    height: 100px;
 
 }
 .proj6{
     display: flex;
     background-image: url("https://picsum.photos/200/200/?grayscale");
+    width: 100px;
+    height: 100px;
 
 }
+
