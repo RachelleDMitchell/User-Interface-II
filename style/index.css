@@ -49,20 +49,21 @@ table {
 
 /* Add CSS styling here */
 
-h1{
+header{
     display:flex;
-    justify-content: flex-start;
+    justify-content: space-between;
+   }
+
+h1{
     font-size: 50px;
 }
 
-.links{
-    display:flex;
-    flex-flow: row;
-    justify-content: flex-end;
-}
 .list{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    border: 5px solid yellow;
+    padding: 25px;
 }
 
 .main{
@@ -70,6 +71,6 @@ h1{
     width: 300px;
     height: 200px;
     display: flex;
-    border: 1px solid black;
+    border: 5px solid red;
     margin: 100px;
 }
