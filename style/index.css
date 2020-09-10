@@ -57,6 +57,9 @@ header{
 h1{
     font-size: 50px;
 }
+h2{
+    color:skyblue;
+}
 
 .list{
     display: flex;
@@ -67,10 +70,13 @@ h1{
 }
 
 .main{
-    background-image: url("https://picsum.photos/300/200/?grayscale");
-    width: 300px;
-    height: 200px;
+    background-image: url("https://picsum.photos/1000/400/?grayscale");
+    width: 1000px;
+    height: 400px;
     display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
     border: 5px solid red;
-    margin: 100px;
+    margin: auto auto;
 }
