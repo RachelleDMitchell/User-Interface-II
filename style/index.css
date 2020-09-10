@@ -86,66 +86,61 @@ h2{
     background: orange;
     display: flex;
     align-self: flex-end;
-}
-
-.projects{
-    display: flex;
-    flex-flow: column;
-    justify-content: space-around;
-    align-content: space-evenly;
-    flex-wrap: wrap;
-        height: 600px;
-       flex-basis: 100%;
-       flex: 1;
-    }
-    
-  
+}   
    
-
-
-
-
-.proj1{
-    display: flex;
-    background-image: url("https://picsum.photos/200/200/?grayscale");
-    width: 100px;
-    height: 100px;
+.row1 {
+    margin: 150px;
     
-
-}
-.proj2{
+  }
+  
+  .row {
     display: flex;
-    background-image: url("https://picsum.photos/200/200/?grayscale");
-    width: 100px;
-    height: 100px;
-
-}
-.proj3{
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
+    margin: 10px;
+  }
+  
+  .column {
     display: flex;
-    background-image: url("https://picsum.photos/200/200/?grayscale");
-    width: 100px;
-    height: 100px;
+    flex-direction: column;
+    background-image: url("https://picsum.photos/450/200/?grayscale");
+    flex-basis: auto;
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .proj1 {
+    background-image: url("https://picsum.photos/450/200/?grayscale");
+    height: 200px;
+  }
+  
+  .proj2 {
+    background-image: url("https://picsum.photos/450/200/?grayscale");
+    height: 200px;
+  }
+  
+  .proj3 {
+    background-image: url("https://picsum.photos/450/200/?grayscale");
+    height: 200px;
+  }
+  .proj4n {
+    background-image: url("https://picsum.photos/450/200/?grayscale");
+    height: 200px;
+  }
+  
+  .proj5 {
+    background-image: url("https://picsum.photos/450/200/?grayscale");
+    height: 200px;
+  }
+  
+  .proj6 {
 
-}
-.proj4{
-    display: flex;
-    background-image: url("https://picsum.photos/200/200/?grayscale");
-    width: 100px;
-    height: 100px;
+    background-image: url("https://picsum.photos/450/200/?grayscale");
+    height: 200px;
+  }
 
-}
-.proj5{
-    display: flex;
-    background-image: url("https://picsum.photos/200/200/?grayscale");
-    width: 100px;
-    height: 100px;
 
-}
-.proj6{
-    display: flex;
-    background-image: url("https://picsum.photos/200/200/?grayscale");
-    width: 100px;
-    height: 100px;
 
-}
+
 
