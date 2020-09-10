@@ -63,6 +63,7 @@ h2{
     border: 1px solid black;
 }
 
+
 .list{
     display: flex;
     flex-direction: row;
@@ -79,11 +80,12 @@ h2{
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+    align-content: center;
     border: 5px solid grey;
     margin: auto auto;
 }
 .main a {
-    color: darkgreen;
+    font-size: 30px;
 }
 .mainlink{
     background: orange;
@@ -93,8 +95,7 @@ h2{
    
 .row1 {
     margin: 150px;
-    
-  }
+}
   
   .row {
     display: flex;
@@ -102,7 +103,7 @@ h2{
     flex-wrap: wrap;
     width: auto;
     margin: 10px;
-  }
+}
   
   .column {
     display: flex;
@@ -111,44 +112,43 @@ h2{
     flex-basis: auto;
     flex: 1;
     margin: 10px;
-  }
+}
   
   .proj1 {
     background-image: url("https://picsum.photos/450/200/?grayscale");
     height: 200px;
-  }
+}
   
   .proj2 {
     background-image: url("https://picsum.photos/450/200/?grayscale");
     height: 200px;
-  }
+}
   
   .proj3 {
     background-image: url("https://picsum.photos/450/200/?grayscale");
     height: 200px;
-  }
+}
   .proj4n {
     background-image: url("https://picsum.photos/450/200/?grayscale");
     height: 200px;
-  }
+}
   
   .proj5 {
     background-image: url("https://picsum.photos/450/200/?grayscale");
     height: 200px;
-  }
+}
   
   .proj6 {
 
     background-image: url("https://picsum.photos/450/200/?grayscale");
     height: 200px;
-  }
+}
 
 footer{
     display: flex;
     justify-content: center;
     color: black;
     font-size: 30px;
-
 }
 footer a{
     color: black;
