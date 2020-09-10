@@ -82,6 +82,9 @@ h2{
     border: 5px solid grey;
     margin: auto auto;
 }
+.main a {
+    color: darkgreen;
+}
 .mainlink{
     background: orange;
     display: flex;
@@ -140,7 +143,16 @@ h2{
     height: 200px;
   }
 
+footer{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 30px;
 
+}
+footer a{
+    color: black;
+}
 
 
 
