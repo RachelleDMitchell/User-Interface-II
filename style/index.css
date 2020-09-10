@@ -1,1 +1,11 @@
 /* Add CSS styling here */
+
+
+
+.main{
+    background-image: url("https://picsum.photos/800/800/?blur");
+    width: 500px;
+    height: 500px;
+    display: flex;
+    border: 1px solid black;
+}
