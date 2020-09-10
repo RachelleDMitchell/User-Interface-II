@@ -94,8 +94,13 @@ h2{
     justify-content: space-around;
     align-content: space-evenly;
     flex-wrap: wrap;
+        height: 600px;
+       flex-basis: 100%;
+       flex: 1;
+    }
+    
   
-}   
+   
 
 
 
