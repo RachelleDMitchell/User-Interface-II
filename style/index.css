@@ -199,4 +199,12 @@ footer a{
 #contact{
   background: skyblue;
 }
+#contactlinks{
+ font-size: 20px;
+ text-decoration: none;
+ display:box;
+ text-align: center;
+ margin: 20px;
+ padding: 20px;   
+}
 
