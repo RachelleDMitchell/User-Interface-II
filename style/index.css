@@ -181,8 +181,17 @@ footer a{
 
 
 .aboutblurb{
-  color: darkslategray;
-  font-size: 20px;
+ color: darkslategray;
+ font-size: 30px;
+ text-decoration: none;
+ display: flex;
+ flex-flow: row wrap;
+ justify-content: center;
+ align-content: center ;
+ width: 100vw; 
+ height: 100vh;
+ margin: auto auto;
+ padding: 20px; 
 
 }
 
