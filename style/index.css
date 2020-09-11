@@ -78,7 +78,7 @@ h2{
 }
 
 .main{
-    background-image: url("https://picsum.photos/id/2/1000/400");
+    background-image: url("https://picsum.photos/id/1002/1000/400");
     width: 1000px;
     height: 400px;
     display: flex;
@@ -121,7 +121,7 @@ h2{
 
   
   .proj1 {
-    background-image: url("https://picsum.photos/id/1019/450/200");
+    background-image: url("https://picsum.photos/id/1019/350/200");
     height: 200px;
     color: white;
     display: flex;
@@ -130,7 +130,7 @@ h2{
 }
   
   .proj2 {
-    background-image: url("https://picsum.photos/id/1048/450/200");
+    background-image: url("https://picsum.photos/id/261/350/200");
     height: 200px;
     color: white;
     display: flex;
@@ -139,7 +139,7 @@ h2{
 }
   
   .proj3 {
-    background-image: url("https://picsum.photos/id/1060/450/200");
+    background-image: url("https://picsum.photos/id/307/350/200");
     height: 200px;
     color: white;
     display: flex;
@@ -147,7 +147,7 @@ h2{
     justify-content: center;
 }
   .proj4 {
-    background-image: url("https://picsum.photos/id/1080/450/200");
+    background-image: url("https://picsum.photos/id/310/350/200");
     height: 200px;
     color: white;
     display: flex;
@@ -156,7 +156,7 @@ h2{
 }
   
   .proj5 {
-    background-image: url("https://picsum.photos/id/137/450/200");
+    background-image: url("https://picsum.photos/id/654/350/200");
     height: 200px;
     color: white;
     display: flex;
@@ -166,7 +166,7 @@ h2{
   
   .proj6 {
 
-    background-image: url("https://picsum.photos/id/2/450/200");
+    background-image: url("https://picsum.photos/id/738/350/200");
     height: 200px;
     color: white;
     display: flex;
