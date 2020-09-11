@@ -206,8 +206,8 @@ footer a{
  flex-flow: row wrap;
  justify-content: center;
  align-content: center ;
- width: 600px; 
- height: 500px;
+ width: 50vw;
+ height: 50vh;
  margin: auto auto;
  padding: 20px;   
 }
