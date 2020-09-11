@@ -64,9 +64,8 @@ h1{
     font-size: 50px;
 }
 h2{
-    color:skyblue;
+    color:white;
     font-size: 50px;
-    border: 1px solid black;
 }
 
 
@@ -79,7 +78,7 @@ h2{
 }
 
 .main{
-    background-image: url("https://picsum.photos/1000/400/?grayscale");
+    background-image: url("https://picsum.photos/1000/400/?grayscale" );
     width: 1000px;
     height: 400px;
     display: flex;
@@ -94,7 +93,8 @@ h2{
     font-size: 30px;
 }
 .mainlink{
-    background: orange;
+    color: white;
+    text-decoration: none;
     display: flex;
     align-self: flex-end;
 }   
@@ -124,6 +124,7 @@ h2{
   .proj1 {
     background-image: url("https://picsum.photos/450/200/?grayscale");
     height: 200px;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -132,6 +133,7 @@ h2{
   .proj2 {
     background-image: url("https://picsum.photos/450/200/?grayscale");
     height: 200px;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -140,6 +142,7 @@ h2{
   .proj3 {
     background-image: url("https://picsum.photos/450/200/?grayscale");
     height: 200px;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -147,6 +150,7 @@ h2{
   .proj4 {
     background-image: url("https://picsum.photos/450/200/?grayscale");
     height: 200px;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -155,6 +159,7 @@ h2{
   .proj5 {
     background-image: url("https://picsum.photos/450/200/?grayscale");
     height: 200px;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -164,6 +169,7 @@ h2{
 
     background-image: url("https://picsum.photos/450/200/?grayscale");
     height: 200px;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
