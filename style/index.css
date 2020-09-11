@@ -192,13 +192,11 @@ footer a{
 
 }
 
-#about{
+#about, #contact, #projects{
   background: skyblue;
 }
 
-#contact{
-  background: skyblue;
-}
+
 #contactlinks{
  font-size: 20px;
  text-decoration: none;
