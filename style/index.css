@@ -191,11 +191,16 @@ footer a{
 }
 
 #contactlinks{
- font-size: 20px;
+ font-size: 30px;
  text-decoration: none;
- display:box;
- text-align: center;
- margin: 20px;
+ display: flex;
+ flex-flow: row wrap;
+ justify-content: center;
+ align-content: center ;
+ width: 600px; 
+ height: 500px;
+ margin: auto auto;
  padding: 20px;   
 }
+
 
