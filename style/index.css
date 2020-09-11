@@ -211,5 +211,11 @@ footer a{
  margin: auto auto;
  padding: 20px;   
 }
+.contactlist{
+  display: flex;
+  justify-content: space-evenly;
+  
+
+}
 
 
