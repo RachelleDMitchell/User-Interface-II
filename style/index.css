@@ -119,35 +119,54 @@ h2{
     flex: 1;
     margin: 10px;
 }
+
   
   .proj1 {
     background-image: url("https://picsum.photos/450/200/?grayscale");
     height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
   
   .proj2 {
     background-image: url("https://picsum.photos/450/200/?grayscale");
     height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
   
   .proj3 {
     background-image: url("https://picsum.photos/450/200/?grayscale");
     height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
   .proj4n {
     background-image: url("https://picsum.photos/450/200/?grayscale");
     height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
   
   .proj5 {
     background-image: url("https://picsum.photos/450/200/?grayscale");
     height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
   
   .proj6 {
 
     background-image: url("https://picsum.photos/450/200/?grayscale");
     height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 footer{
