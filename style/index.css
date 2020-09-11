@@ -92,12 +92,6 @@ h2{
 .main a {
     font-size: 30px;
 }
-.mainlink{
-    color: white;
-    text-decoration: none;
-    display: flex;
-    align-self: flex-end;
-}   
    
 .row1 {
     margin: 150px;
