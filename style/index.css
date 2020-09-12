@@ -1,1 +1,221 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
 /* Add CSS styling here */
+
+header{
+    display:flex;
+    justify-content: space-between;
+}
+header a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+h1{
+    font-size: 50px;
+}
+h2{
+    color:white;
+    font-size: 50px;
+}
+
+
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: top-line;
+    padding: 25px;
+}
+
+.main{
+    background-image: url("https://picsum.photos/id/1002/1000/400");
+    width: 1000px;
+    height: 400px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border: 5px solid grey;
+    margin: auto auto;
+}
+.main a {
+    font-size: 30px;
+}
+   
+.row1 {
+    margin: 150px;
+}
+  
+  .row {
+    display: flex;  
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
+    margin: 10px;
+}
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    flex: 1;
+    margin: 10px;
+}
+
+  
+  .proj1 {
+    background-image: url("https://picsum.photos/id/1019/350/200");
+    height: 200px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+  .proj2 {
+    background-image: url("https://picsum.photos/id/261/350/200");
+    height: 200px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+  .proj3 {
+    background-image: url("https://picsum.photos/id/307/350/200");
+    height: 200px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  .proj4 {
+    background-image: url("https://picsum.photos/id/310/350/200");
+    height: 200px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+  .proj5 {
+    background-image: url("https://picsum.photos/id/654/350/200");
+    height: 200px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+  .proj6 {
+
+    background-image: url("https://picsum.photos/id/738/350/200");
+    height: 200px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 30px;
+}
+footer a{
+    color: black;
+    text-decoration: none;
+}
+
+
+.aboutblurb{
+ color: darkslategray;
+ font-size: 30px;
+ text-decoration: none;
+ display: flex;
+ flex-flow: row wrap;
+ justify-content: center;
+ align-content: center ;
+ width: 90vw; 
+ height: 100vh;
+ margin: auto auto;
+ padding: 20px; 
+
+}
+
+#about, #contact, #projects{
+  background: skyblue;
+}
+
+#contactlinks{
+ font-size: 30px;
+ text-decoration: none;
+ display: flex;
+ flex-flow: row wrap;
+ justify-content: center;
+ align-content: center ;
+ width: 50vw;
+ height: 50vh;
+ margin: auto auto;
+ padding: 20px;   
+}
+.contactlist{
+  display: flex;
+  justify-content: space-evenly;
+  
+
+}
+
+
