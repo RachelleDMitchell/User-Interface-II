@@ -120,55 +120,67 @@ h2{
   .proj1 {
     background-image: url("https://picsum.photos/id/1019/350/200");
     height: 200px;
+    width: 225px;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-position: center;
 }
   
   .proj2 {
     background-image: url("https://picsum.photos/id/261/350/200");
     height: 200px;
+    width: 225px;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-position: center;
 }
   
   .proj3 {
     background-image: url("https://picsum.photos/id/307/350/200");
     height: 200px;
+    width: 225px;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-position: center;
 }
   .proj4 {
     background-image: url("https://picsum.photos/id/310/350/200");
     height: 200px;
+    width: 225px;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-position: center;
 }
   
   .proj5 {
     background-image: url("https://picsum.photos/id/654/350/200");
     height: 200px;
+    width: 225px;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-position: center;
 }
   
   .proj6 {
 
     background-image: url("https://picsum.photos/id/738/350/200");
     height: 200px;
+    width: 225px;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-position: center;
 }
 
 footer{
@@ -242,10 +254,13 @@ footer a{
     display: flex;
     justify-content: center;
   }
- /* .proj1 .proj2 .proj3 .proj4 .proj5 .proj6{
-   width: 100px;
-   height: 100px;
- } */
+  .proj1, .proj2, .proj3, .proj4, .proj5, .proj6{
+      
+ 
+   
+  
+  
+ } 
 
  .aboutblurb{
    width: 90%;
@@ -284,7 +299,7 @@ footer a{
     color: black;
   }
   .aboutblurb{
-    width: 80%;
+    width: 0%;
     font-size: 1.2rem;
     padding: 5px;
     margin: 5px;
