@@ -198,8 +198,8 @@ footer a{
 
 }
 
-#about, #contact, #projects{
-  background: skyblue;
+#home, #about, #contact, #projects{
+  background: azure;
 }
 
 #contactlinks{
@@ -225,7 +225,7 @@ footer a{
 /* Responsive Design - Media Queries */
 
 @media only screen and (max-width: 800px) {
-  body {
+  #home, #about, #contact, #projects {
     background-color: lightblue;
   }
 
@@ -242,8 +242,20 @@ footer a{
     display: flex;
     justify-content: center;
   }
-  .column {
-    max-width: 100%;
-  }
+ /* .proj1 .proj2 .proj3 .proj4 .proj5 .proj6{
+   width: 100px;
+   height: 100px;
+ } */
 
+ .aboutblurb{
+   width: 90%;
+   font-size: 1.5rem;
+ }
+ #contactlinks{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   font-size: 1.5rem;
+   width: 100%;
+ }
 } 
