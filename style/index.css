@@ -292,10 +292,12 @@ footer a{
     color: black;
   }
   .aboutblurb{
-    width: 0%;
+    width: 80%;
     font-size: 1.2rem;
     padding: 5px;
     margin: 5px;
+    display: flex;
+    
   }
   #contactlinks{
     display: flex;
