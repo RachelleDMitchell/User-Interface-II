@@ -49,149 +49,108 @@ table {
 
 /* Add CSS styling here */
 body{ 
-  font-size: 62.5%;
+font-size: 62.5%;
 }
 
 header{
-    display:flex;
-    justify-content: space-between;
+  display:flex;
+  justify-content: space-between;
 }
 header a{
-    color: black;
-    font-size: 1.3rem;
-    text-decoration: none;
-    padding: 10px;
+  color: black;
+  font-size: 1.3rem;
+  text-decoration: none;
+  padding: 10px;
 }
 
 h1{
-    font-size: 3rem;
+  font-size: 3rem;
 }
 h2{
-    color:white;
-    font-size: 3rem;
+  color:white;
+  font-size: 3rem;
 }
 
 
 .list{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    text-decoration: top-line;
-    padding: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-decoration: top-line;
+  padding: 25px;
 }
 
 .main{
-    background-image: url("https://picsum.photos/id/1002/1000/400");
-    width: 1000px;
-    height: 400px;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    border: 5px solid grey;
-    margin: auto auto;
+  background-image: url("https://picsum.photos/id/1002/1000/400");
+  width: 1000px;
+  height: 400px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border: 5px solid grey;
+  margin: auto auto;
 }
 .main a {
-    font-size: 1.875rem;
+  font-size: 1.875rem;
 }
+
+.projects {
+  display: flex;  
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: auto;
+  margin: 10px;
+}
+.cards{
+  height: 200px;
+  width: 31%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  margin-bottom: 5px;
+  background-position: no-repeat;
+} 
+  
+.proj1 {
+  background-image: url("https://picsum.photos/id/1019/450/200");
    
-.row1 {
-    margin: 150px;
 }
   
-  .row {
-    display: flex;  
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: auto;
-    margin: 10px;
+.proj2 {
+  background-image: url("https://picsum.photos/id/261/450/200");
+ 
 }
   
-  .column {
-    display: flex;
-    flex-direction: column;
-    flex-basis: auto;
-    flex: 1;
-    margin: 10px;
-}
+.proj3 {
+  background-image: url("https://picsum.photos/id/307/450/200");
+   }
 
+.proj4 {
+  background-image: url("https://picsum.photos/id/310/450/200");
+ }
   
-  .proj1 {
-    background-image: url("https://picsum.photos/id/1019/350/200");
-    height: 200px;
-    width: 225px;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-position: center;
-}
+.proj5 {
+  background-image: url("https://picsum.photos/id/654/450/200");
+ }
   
-  .proj2 {
-    background-image: url("https://picsum.photos/id/261/350/200");
-    height: 200px;
-    width: 225px;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-position: center;
-}
-  
-  .proj3 {
-    background-image: url("https://picsum.photos/id/307/350/200");
-    height: 200px;
-    width: 225px;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-position: center;
-}
-  .proj4 {
-    background-image: url("https://picsum.photos/id/310/350/200");
-    height: 200px;
-    width: 225px;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-position: center;
-}
-  
-  .proj5 {
-    background-image: url("https://picsum.photos/id/654/350/200");
-    height: 200px;
-    width: 225px;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-position: center;
-}
-  
-  .proj6 {
-
-    background-image: url("https://picsum.photos/id/738/350/200");
-    height: 200px;
-    width: 225px;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-position: center;
+.proj6 {
+ background-image: url("https://picsum.photos/id/738/450/200");
 }
 
 footer{
-    display: flex;
-    justify-content: center;
-    color: black;
-    font-size: 1.875rem;
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-size: 1.875rem;
 }
 footer a{
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 
@@ -237,75 +196,88 @@ footer a{
 /* Responsive Design - Media Queries */
 
 @media only screen and (max-width: 800px) {
-  #home, #about, #contact, #projects {
-    background-color: lightblue;
+#home, #about, #contact, #projects {
+  background-color: lightblue;
   }
 
-  header h1{
-    display: none;
+header h1{
+  display: none;
   }
-  header nav {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+header nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
   }
-  .main {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
   }
   
- .aboutblurb{
-   width: 90%;
-   font-size: 1.5rem;
+.aboutblurb{
+  width: 90%;
+  font-size: 1.5rem;
  }
- #contactlinks{
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
-   font-size: 1.5rem;
-   width: 100%;
+#contactlinks{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.5rem;
+  width: 100%;
  }
- .projects{
-   width: 100%;
-   display: flex;
-   justify-content: center;
+.cards{
+  width: 46%;
+  display: flex;
+  justify-content: space-evenly;
+  }
+
+
  }
-} 
 
 @media only screen and (max-width: 500px) {
-  #home, #about, #contact, #projects {
-    background-color: gray;
+#home, #about, #contact, #projects {
+  background-color: gray;
   }
-  header nav a {
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    font-size: 1rem;
+header nav a {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 1rem;
   }
-  .main {
-    width: 100%;
+  .list{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+  }
+  li{
+    border: 1px solid black;
+    border-radius: 1px;
+    display: flex;
+    align-items: center;
+  }
+
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
    
   }
-  h2{
-    font-size: 2rem;
-    color: black;
+h2{
+  font-size: 2rem;
+  color: black;
   }
-  .aboutblurb{
-    width: 80%;
-    font-size: 1.2rem;
-    padding: 5px;
-    margin: 5px;
-    display: flex;
+.aboutblurb{
+  width: 80%;
+  font-size: 1.2rem;
+  padding: 5px;
+  margin: 5px;
+  display: flex;
     
   }
-  #contactlinks{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5rem;
-    width: 80%;
+#contactlinks{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  width: 80%;
   }
 }
